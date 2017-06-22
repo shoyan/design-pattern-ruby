@@ -38,7 +38,7 @@
 
 ### 10. Strategy pattern
 
-* Sample code(comming soon)
+* [Sample code](10-strategy.rb)
 
 ### 11. Composite pattern
 
