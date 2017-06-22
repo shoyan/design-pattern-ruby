@@ -66,7 +66,7 @@
 
 ### 17. Observer pattern
 
-* Sample code(comming soon)
+* [Sample code](17-observer.rb)
 
 ### 18. Memento pattern
 
