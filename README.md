@@ -58,7 +58,7 @@
 
 ### 15. Facade pattern
 
-* Sample code(comming soon)
+* [Sample code](15-facade.rb)
 
 ### 16. Mediator pattern
 
