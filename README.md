@@ -6,7 +6,7 @@
 
 ### 2. Adapter pattern
 
-* Sample code(comming soon)
+* [Sample code](02-adapter.rb)
 
 ### 3. TemplateMethod pattern
 
