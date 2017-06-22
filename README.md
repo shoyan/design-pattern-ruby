@@ -18,7 +18,7 @@
 
 ### 5. Singleton pattern
 
-* Sample code(comming soon)
+* [Sample code](05-singleton.rb)
 
 ### 6. Prototype pattern
 
