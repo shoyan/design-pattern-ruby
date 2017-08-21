@@ -86,7 +86,7 @@
 
 ### 22. Command pattern
 
-* Sample code(comming soon)
+* [Sample code](22-command.rb)
 
 ### 23. Interpreter pattern
 

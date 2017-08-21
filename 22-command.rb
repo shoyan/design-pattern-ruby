@@ -1,5 +1,5 @@
 #
-# Make a juice uses command pattern.
+# Make a using command pattern.
 #
 class Command
   attr_writer :command
