@@ -1,5 +1,5 @@
 #
-# Make a using command pattern.
+# Make a juice using command pattern.
 #
 class Command
   attr_writer :command
@@ -14,7 +14,7 @@ class AppleJuice < Command
   end
 
   def execute
-    puts "#{@name.squeeze}ができました"
+    puts "#{@name}ができました"
   end
 end
 
@@ -24,7 +24,7 @@ class LemonJuice < Command
   end
 
   def execute
-    puts "#{@name.squeeze}ができました"
+    puts "#{@name}ができました"
   end
 end
 
