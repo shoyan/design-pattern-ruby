@@ -2,7 +2,9 @@
 # Make a juice using command pattern.
 #
 class Command
-  attr_writer :command
+  def initialize(name)
+    @name = name
+  end
 
   def execute
   end
@@ -10,7 +12,7 @@ end
 
 class AppleJuice < Command
   def initialize
-    @name = 'アップルジュース'
+    super('アップルジュース')
   end
 
   def execute
@@ -20,7 +22,7 @@ end
 
 class LemonJuice < Command
   def initialize
-    @name = 'レモンジュース'
+    super('レモンジュース')
   end
 
   def execute
@@ -29,12 +31,16 @@ class LemonJuice < Command
 end
 
 class Juicer
-  def run
-    @command.execute
+  def initialize
+    @command = []
   end
 
-  def set_command(command)
-    @command = command
+  def run
+    @command.each { |cmd| cmd.execute }
+  end
+
+  def add_command(command)
+    @command << command
   end
 end
 
@@ -44,14 +50,10 @@ juicer = Juicer.new
 apple_command = AppleJuice.new
 lemon_command = LemonJuice.new
 
-# Set the apple command
-juicer.set_command(apple_command)
-
-# Run the command
-juicer.run
-
-# Set the lemmon command
-juicer.set_command(lemon_command)
+# Add the apple command
+juicer.add_command(apple_command)
+# Add the lemmon command
+juicer.add_command(lemon_command)
 
 # Run the command
 juicer.run
