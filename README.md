@@ -14,7 +14,7 @@
 
 ### 4. FactoryMethod pattern
 
-* Sample code(comming soon)
+* [Sample code](04-factory_method.rb)
 
 ### 5. Singleton pattern
 
