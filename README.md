@@ -26,7 +26,7 @@
 
 ### 7. Builder pattern
 
-* Sample code(comming soon)
+* [Sample code](07-builder.rb)
 
 ### 8. AbstractFactory pattern
 
